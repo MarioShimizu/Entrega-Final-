@@ -1,0 +1,108 @@
+/* Reset de estilos */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #970808;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+    width: 100%; /* Ancho del contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Espacio interior del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    background-color: #5e3a3a; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Radio de borde para esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el contenedor */
+  }
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.info-container {
+  margin-top: 20px;
+}
+
+.info-container p {
+  margin-bottom: 10px;
+  font-size: 16px; /* Tamaño de fuente */
+  line-height: 1.5; /* Altura de línea */
+  margin-bottom: 15px; /* Espacio inferior */
+  color: #333; /* Color de texto */
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffc107;
+  color: #856404;
+}
+div {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 0%;
+  background-color:white;
+  border-left: 0cm solid #007bff;
+}
+
+.welcome-message {
+  background-color: #d9c80f;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  border-radius: 5px;
+}
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:  #d9c80f; /* Color de fondo opcional */
+  padding: 10px; /* Espacio interno para las imágenes */
+
+}
+
+.contenedor-imagenes img {
+  max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}

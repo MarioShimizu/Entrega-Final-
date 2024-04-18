@@ -1,0 +1,31 @@
+[
+    {
+      "titulo": "Historia japonesa contemporánea",
+      "fechaPublicacion": 1989,
+      "disponible": true
+    },
+    {
+      "titulo": "Desarrollo Económico en Asia",
+      "fechaPublicacion": 2005,
+      "disponible": true
+    },
+    {
+      "titulo": "Desarrollo Económico Japones",
+      "fechaPublicacion": 1975,
+      "disponible": false
+    },
+    {
+       "titulo": "Cultura Japonesa Contemporanea",
+       "fechaPublicacion": 1985,
+       "disponible": false
+    },
+    {
+        "titulo": "Politica y Cultura en el periodo Edo",
+        "fechaPublicacion": 1930,
+        "disponible": true
+     }
+
+   
+    
+   
+]
